@@ -114,10 +114,12 @@
     <Content Include="ListCertificates.aspx" />
     <Content Include="login.aspx" />
     <Content Include="loginupdate.aspx" />
+    <Content Include="M2.2.sql" />
     <Content Include="profile.aspx" />
     <Content Include="Promocodes.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="StudentCourse.aspx" />
+    <Content Include="style.css" />
     <Content Include="SubmitAssignment.aspx" />
     <Content Include="viewAss.aspx" />
     <Content Include="ViewAssignmentContent.aspx" />

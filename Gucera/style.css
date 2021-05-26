@@ -1,0 +1,72 @@
+﻿body {
+}
+
+
+.inputs{
+    display:flex;
+    flex-direction:column;
+
+}
+
+#addon-wrapping{
+    display:none;
+}
+
+
+.input-group-text{
+    margin-bottom:30px;
+    margin-right: 20px;
+}
+
+#submit , #register , #username {
+    border-radius: 4px;
+    width: 15rem;
+}
+
+#login {
+}
+
+#password {
+    position: relative;
+    top: 1.6rem;
+    width: 15rem;
+}
+
+#id {
+    width: 15rem;
+}
+
+.loginform {
+    display: flex;
+    /* flex-direction: column; */
+    flex-flow: column wrap;
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    align-content: space-evenly;
+    position: relative;
+    top: 5rem;
+    background: rgb(249 250 253 / 84%);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 15px;
+    border: 1px rgba( 255, 255, 255, 0.18 );
+    padding: 24px 20px;
+    width: 20rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#submit{
+    position:relative;
+    bottom : 1.7rem;
+}
+
+#Image1 {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

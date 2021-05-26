@@ -16,7 +16,10 @@ namespace Gucera
 
         protected void Page_Load(object sender, EventArgs e)
         {
-         
+           username.Attributes.Add("placeholder", "ID");
+            password.Attributes.Add("placeholder", "Password");
+
+
         }
         protected void Login(object sender,EventArgs e)
         {

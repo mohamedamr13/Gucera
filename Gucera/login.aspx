@@ -7,6 +7,8 @@
     <title></title>
     <link href="Bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="Bootstrap/Style.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
+
     <style type="text/css">
         .auto-style1 {
             position: absolute;
@@ -38,26 +40,50 @@
         }
     </style>
 </head>
-<body class="auto-style8" style=" background-image: url('imgs/login.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-size:cover; text-align: justify;">
+<body class="auto-style8" style=" background-image: url('imgs/login2.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-size:cover; text-align: justify;">
            
     <form id="form1" runat="server">
+
+<asp:Image ID="Image1" runat="server"  ImageUrl="imgs/gucera.png"/>
+        <div class ="loginform"> 
+       <div class ="inputs" >
+<div class="input-group flex-nowrap">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="addon-wrapping"></span>
+  </div>
+            <asp:TextBox ID="username" placeholder="ID" runat="server" CssClass="input-group-text"></asp:TextBox>
+
+</div>
+
+        <div class="input-group flex-nowrap">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="addon-wrapping"></span>
+  </div>
+              <asp:TextBox ID="password" runat="server"  CssClass="input-group-text" TextMode="Password"></asp:TextBox>
+
+</div>
+           </div>
+
+
+
         <div>
-            <asp:TextBox ID="username" runat="server" CssClass="auto-style1"></asp:TextBox>
             
             
-            ID:<p>
+            <p>
                     &nbsp;</p>
         <p>
-            &nbsp;Password:</p>
+            &nbsp;</p>
+             <p>
+            <asp:Button ID="submit" runat="server" CssClass="btn btn-info" onClick="Login" Text="Log in" />
+        </p>
+
         <p>
-            <asp:TextBox ID="password" runat="server"  CssClass="auto-style5" TextMode="Password"></asp:TextBox>
             
-            <asp:Button ID="register" runat="server" CssClass="auto-style7" onClick="UserRegister" Text="Click Here To Register" />
+            <asp:Button ID="register" runat="server" CssClass="btn btn-outline-dark" onClick="UserRegister" Text="Create An Account" />
             
         </p>
-        <p>
-            <asp:Button ID="submit" runat="server" CssClass="auto-style3" onClick="Login" Text="Log in" />
-        </p>
+       
+            </div>
         
             </div>
     </form>
